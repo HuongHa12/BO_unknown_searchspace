@@ -1,9 +1,6 @@
 # Bayesian optimization with unknown search space
 
-This repository contains the code for the method GPUCB-UBO proposed in the paper 'Bayesian Optimization with Unknown Search Space', NeurIPS'2019, Ha et al. GPUCB-UBO is a systematic volume expansion
-strategy for the Bayesian optimization when the search space is unknown. It guarantees that in iterative expansions of the search space, our method can find a point whose function
-value within epsilon of the objective function maximum. Without the need to specify any parameters, GPUCB-UBO automatically triggers a minimal expansion required
-iteratively. The method is evaluated on five benchmark test functions and three common machine learning hyper-parameter tuning tasks.
+This repository contains the code for the method GPUCB-UBO proposed in the paper 'Bayesian Optimization with Unknown Search Space', NeurIPS'2019, Ha et al. GPUCB-UBO is a systematic volume expansion strategy for the Bayesian optimization when the search space is unknown. It guarantees that in iterative expansions of the search space, our method can find a point whose function value within epsilon of the objective function maximum. Without the need to specify any parameters, GPUCB-UBO automatically triggers a minimal expansion required iteratively. The method is evaluated on seven benchmark test functions and three common machine learning hyper-parameter tuning tasks.
 
 ## Prerequisites
 
