@@ -27,7 +27,7 @@ GPUCB-UBO can be directly executed through source code
 
 ## Test Cases
 
-DeepPerf has been evaluated on 7 synthetic benchmark functions: Beale, Eggholder, Hartman3, Levy3, Hartman6, Levy10, Ackley10 and three common machine learning hyper-parameter tuning tasks: linear regression with elastic net, multilayer perceptron
+GPUCB-UBO has been evaluated on 7 synthetic benchmark functions: Beale, Eggholder, Hartman3, Levy3, Hartman6, Levy10, Ackley10 and three common machine learning hyper-parameter tuning tasks: linear regression with elastic net, multilayer perceptron
 and convolutional neural network. The codes to implement these synthetic functions and ML models can be found in the scripts ```functions.py``` and ```functions_ml_model.py```.
 
 ## Usage
